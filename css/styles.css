@@ -1,0 +1,148 @@
+@import url(reset.css);
+/*title font-family:*/
+@import url(http://fonts.googleapis.com/css?family=Mrs+Sheppards);
+@import url(http://fonts.googleapis.com/css?family=Averia+Gruesa+Libre);
+/*body font-family:*/
+@import url(http://fonts.googleapis.com/css?family=Walter+Turncoat);
+
+
+
+body {
+	background-image: url(../img/pizza1.jpg);
+	background-repeat: repeat;
+	font-family: 'Walter Turncoat', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+}
+
+p {
+	margin-bottom: 10px;
+	margin: 20px;
+}
+
+.connect {
+	margin-left: 260px;
+}
+.content-box1 {
+	width: 80%;
+	background-image: url(../img/ricepaper_v3.png);
+	margin: 30px;
+	margin-bottom: 0px;
+	box-shadow: 5px 5px 60px #A6559F;
+}
+
+.content-box2 {
+	width: 75%;
+	background-image: url(../img/extra_clean_paper.png);
+	margin: 30px;
+	margin-left: 100px;
+	box-shadow: 5px 5px 60px #A6559F;
+
+}
+
+.title {
+	font-family: 'Mrs Sheppards', sans-serif;
+	color: #14020D;
+	font-size: 80px;
+	margin-bottom: 10px;
+}
+
+.logo {
+	float: left;
+	margin-right: 10px;
+	width: 230px;
+}
+
+.pic {
+	float: left;
+	margin-right: 10px;
+	width: 250px;
+}
+.des {
+	font-family: 'Averia Gruesa Libre', sans-serif;
+	color: #14020D;
+	font-size: 20px;
+}
+
+nav {
+	width: 80%;
+	border-radius: 5px;
+}
+nav li {
+	display: inline-block;
+	font-size: 30px;
+}
+nav a {
+	display: inline-block;
+	padding: 5px;
+	color: #14020D;	
+}
+
+/*ul.social li a {
+	display: block;
+	list-style-type: disc;
+	margin: 1em;
+	padding: 40px;
+	font-size: 20px;
+	display: inline;
+	width: auto;
+	height: auto;
+	line-height: normal;
+	vertical-align: baseline;
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	margin-top: 0;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+}*/
+
+
+footer {
+	color: #FFF;
+	font-family: 'Walter Turncoat', sans-serif;
+	font-size: 20px;
+	bottom: 15px;
+	right: 15px;
+	max-width: 194px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	position: fixed;
+	display: block;
+}
+.foot {
+	border-color: #A6559F;
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+	margin-bottom: 5px;
+}
+
+.row-fluid {
+	width: 100%;
+
+}
+
+div {
+	display: block;
+}
+
+.h3 {
+	color: #D9431B;
+	font-weight: bold;	
+}
+
+
+.h5 {
+	color: #14020D;
+
+}
+.mail {
+
+	text-decoration: none;
+}
+
+
+.mail:hover {
+	text-decoration: underline;
+}
