@@ -71,40 +71,36 @@ nav {
 nav li {
 	display: inline-block;
 	font-size: 30px;
+
 }
 nav a {
 	display: inline-block;
 	padding: 5px;
-	color: #14020D;	
+	color: #14020D;
+	text-decoration: none;
 }
 
-/*ul.social li a {
-	display: block;
-	list-style-type: disc;
-	margin: 1em;
-	padding: 40px;
-	font-size: 20px;
-	display: inline;
-	width: auto;
-	height: auto;
-	line-height: normal;
-	vertical-align: baseline;
-	background-image: none;
-	background-position: 0% 0%;
-	background-repeat: repeat;
-	margin-top: 0;
-	font-weight: normal;
-	font-style: normal;
-	text-decoration: inherit;
-}*/
+nav a:hover {
+	text-decoration: underline;
+}
 
+.border {
+	border-bottom: 2px solid;
+	font-size: 25px;
+	color:  #D9431B;
+	width: 300px;
+}
+
+.front-margin {
+	margin-right: 30px;
+}
 
 footer {
 	color: #FFF;
 	font-family: 'Walter Turncoat', sans-serif;
 	font-size: 20px;
-	bottom: 15px;
-	right: 15px;
+	bottom: 40px;
+	right: 30px;
 	max-width: 194px;
 	padding-bottom: 10px;
 	padding-left: 10px;
